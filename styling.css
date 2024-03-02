@@ -7,4 +7,45 @@ h1{
     height: 10vh;
     background-color: coral;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    justify-items: center;
+    
 }
+
+.contener{
+    height:auto;
+    display:flex;
+    justify-content: center;
+    box-shadow: 5px blue,30px light green;
+}
+.contener img{
+    height: 60vh;
+    align-self: center;
+    border-radius:4px 40px 10px 30px;
+    
+}
+
+.small_box{
+    height: 20vh;
+    width: 25vw;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 60px rgb(37, 42, 36);
+    z-index: 2px;
+    border: none;
+    border-radius: 10px;
+
+}
+.btns{
+    height: 5vh;
+    width: 7vw;
+    text-align: center;
+    border-radius:10px;
+    border: none;
+    background-color: rgb(98, 98, 181);
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
