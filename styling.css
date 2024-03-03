@@ -15,9 +15,10 @@ h1{
 }
 
 .contener{
-    height:auto;
-    display:flex;
-    justify-content: center;
+    height:60%;
+    width: 60%;
+    display: flex;
+    
     box-shadow: 5px blue,30px light green;
 }
 .contener img{
@@ -47,5 +48,6 @@ h1{
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
+    
 }
 
