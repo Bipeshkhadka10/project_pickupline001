@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 
 }
-h1{
+
+h1 {
     height: 10vh;
     background-color: coral;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11,43 +12,67 @@ h1{
     letter-spacing: 3px;
     text-transform: capitalize;
     justify-items: center;
-    
+
 }
 
-.contener{
-    height:60%;
-    width: 60%;
+.contener {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 60px blueviolet;
+}
+
+.contener img {
+    max-height: 70vh;
+    border-radius: 90px 10px 100px 10px;
+    box-shadow: 0px 10px 40px red;
+}
+.content{
+   max-width:36.2vw;
+}
+.buttons{
     display: flex;
     
-    box-shadow: 5px blue,30px light green;
-}
-.contener img{
-    height: 60vh;
-    align-self: center;
-    border-radius:4px 40px 10px 30px;
-    
 }
 
-.small_box{
-    height: 20vh;
-    width: 25vw;
-    background-color: whitesmoke;
-    box-shadow: 10px 10px 60px rgb(37, 42, 36);
-    z-index: 2px;
-    border: none;
-    border-radius: 10px;
-
-}
-.btns{
+.btns {
+    margin: 10px;
     height: 5vh;
-    width: 7vw;
-    text-align: center;
-    border-radius:10px;
+    width: 8vw;
     border: none;
-    background-color: rgb(98, 98, 181);
-    font-size: large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    cursor: pointer;
-    
+    border-radius: 8px;
+    background-color: rgb(106, 62, 207);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+
+}
+.next{
+    margin: 10px;
+    height: 5vh;
+    width: 8vw;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(106, 62, 207);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
 }
 
+.small_box {
+    width: 36vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lines {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    min-height: 10vh;
+    margin-top: 15px;
+}
