@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contenter{
+    min-height: 40vh;
+    max-width: 60vw;
+    background-color: red;
+    
+    align-content: center;
+}
+#search
+{
+   border: 1px solid blue;
+   border-radius: 10px;
+   height: 2rem;
+   width: 15rem;
+   cursor: pointer;
+   padding: 0px 10px;
+   font-family:sans-serif;
+   font-size: larger;
+}
+label{
+    font-family:sans-serif;
+    font-size: larger; 
+}
+
+#para{
+    position: relative;
+    height: 10vh;
+    width: 15vw;
+    background-color: cyan;
+    left: 30rem;
+    font-family:sans-serif;
+    font-size:medium;
+}
+#btn{
+    font-family:sans-serif;
+    font-size:medium;
+    border:none;
+    border-radius: 10px;
+    height: 2rem;
+    width: 7rem;
+    cursor: pointer;
+    padding: 0px 10px;
+    background-color:whitesmoke;
+}
