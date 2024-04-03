@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form_validation</title>
+    
     <link rel="stylesheet" href="frm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
@@ -30,7 +35,7 @@
             </div>
             <div class="form-content">
                 <label for="">Phone number</label>
-                <input type="number" maxlength="20" autocomplete="off" placeholder="Enter your Number">
+                <input type="text" maxlength="20" autocomplete="off" placeholder="Enter your Number">
                 <i class="fa-solid fa-check"></i>
                 <i class="fa-solid fa-circle-exclamation"></i>
                 <small>err msg</small>
@@ -48,6 +53,12 @@
                 <i class="fa-solid fa-check"></i>
                 <i class="fa-solid fa-circle-exclamation"></i>
                 <small>err msg</small>
+            </div>
+            <div class="form-btn">
+                <button id="btn" value="submit">Submit</button>
+                <span class="material-symbols-outlined">
+                    send
+                    </span>
             </div>
 
         </form>
