@@ -21,7 +21,7 @@ body{
     background-color: rgba(107, 106, 106, 0.501);
     border-radius: 15px;
     overflow: hidden;
-
+    
     
 }
 .header{
@@ -41,11 +41,13 @@ body{
 form{
     margin: 10px;
     padding: 10px;
+   
 }
 .form-content{
     margin: 4px;
     padding: 30x 0px;
     display: inline-block;
+   
 }
 .form-content label{
     font-family: Montserrat;
