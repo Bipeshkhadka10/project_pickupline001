@@ -47,7 +47,7 @@ form{
     margin: 4px;
     padding: 30x 0px;
     display: inline-block;
-   
+   margin-bottom: 7px;
 }
 .form-content label{
     font-family: Montserrat;
@@ -109,3 +109,10 @@ background-color: rgb(186, 181, 191);
     background-color: rgb(0, 13, 255);
 }
 
+small{
+    font-family: Montserrat;
+    font-size:11px;
+    padding-left: 10px;
+    letter-spacing: 2.5px;
+    visibility: hidden;
+}
