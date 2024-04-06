@@ -25,7 +25,7 @@ const isnumber=(numberval)=>{
     return true;
 }
 
-const setSuccessMgs =(data)=>{
+const setSuccessMgs =(hello)=>{
     alert("successfully submitted");
     swal("welcome!","successfully Registered","success");
     location.href=`C:\Users\bipes\Desktop\project01\weather.html?username=${usernameval}`
@@ -100,7 +100,8 @@ function setErrMsg(input, errrormsg) {
 }
 
 
-btn.addEventListener('submit', (event) => {
+btn.addEventListener('click', (event) => {
     event.preventDefault();
     validation();
+    
 });
